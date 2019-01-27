@@ -10,5 +10,5 @@ module.exports = {
     github: 'https://github.com/onoxeve',
   },
   pathPrefix: '/',
-  siteUrl: 'https://onoxeve/com/',
+  siteUrl: 'https://onoxeve/com',
 };
