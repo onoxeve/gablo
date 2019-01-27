@@ -5,7 +5,7 @@ module.exports = {
   primaryColor: '#3498db', // Required
   showHeaderImage: true,
   showShareButtons: false,
-  postsPerPage: 5, // Required
+  postsPerPage: 30, // Required
   social: {
     github: 'https://github.com/onoxeve',
   },
