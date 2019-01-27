@@ -4,6 +4,7 @@ date: '2017-07-09'
 ---
 
 Devise + omniauthでFacebook認証を実装する手順。(独自のユーザ登録フォーム付き)
+<!-- end -->
 
 ## 概要
 Devise + omniauthでFacebook認証を実装します。

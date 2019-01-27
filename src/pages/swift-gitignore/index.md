@@ -4,6 +4,7 @@ date: '2018-12-26'
 ---
 
 各言語・フレームワーク用の`gitignore`テンプレートより、[Swift版](https://github.com/github/gitignore/blob/master/Swift.gitignore)を導入する。細かい調整は追々やるとする。
+<!-- end -->
 
 ## カスタマイズ箇所
 

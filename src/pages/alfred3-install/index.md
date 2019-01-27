@@ -4,6 +4,7 @@ date: '2019-01-14'
 ---
 
 GithubレポジトリをSpotlight感覚で検索したいがために、[Alfred](https://www.alfredapp.com/)を導入した。  
+<!-- end -->
 [Alfred](https://www.alfredapp.com/)の`Download Alfred 3`からダウンロードする。
 
 ## Powerpack導入

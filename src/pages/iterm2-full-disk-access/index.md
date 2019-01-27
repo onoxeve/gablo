@@ -4,6 +4,7 @@ date: '2018-12-24'
 ---
 
 Homebrewで[Carthage](https://github.com/Carthage/Carthage#installing-carthage)を入れようとしたら、以下のような`Permission denied`エラーが発生した。Mojaveからファイルアクセス権限が厳しくなり、手動で権限をつけてあげる必要がある。
+<!-- end -->
 
 ```bash
 Error: An unexpected error occurred during the `brew link` step

@@ -3,8 +3,8 @@ title: Gatsby on Netlify
 date: '2018-10-27'
 ---
 
-## Gatsby on Netlify
 React製の静的サイトジェネレータ[Gatsby](https://www.gatsbyjs.org/)を[Netlify](https://www.netlify.com/)で立てるまでの手順。
+<!-- end -->
 
 ## Gatsby導入
 
