@@ -10,7 +10,7 @@ const Card = styled.div`
   @media only screen and (max-width: 870px) {
     border-left: none;
     border-right: none;
-    padding: 75px 15px;
+    padding: 15px 15px;
   }
 `;
 
