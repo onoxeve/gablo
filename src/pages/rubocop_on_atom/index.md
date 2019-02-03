@@ -3,7 +3,7 @@ title: Atom rubocopの導入
 date: '2019-01-14'
 ---
 
-Atomにソースコード解析ツールのrubocopを入れる手順。コーディング規約は[cookpadさん](https://github.com/cookpad/styleguide/blob/master/.rubocop.yml)を参考にする。
+Atomにソースコード解析ツールのrubocopを入れる手順。コーディング規約はcookpadさんを参考にする。
 <!-- end -->
 
 ## 環境
