@@ -28,7 +28,7 @@ const Article = styled.article`
     font-size: 22px;
     font-weight: 700;
     line-height: 1.5;
-    margin: 25px 50px 15px;
+    margin: 25px 0 15px;
   }
 
   h3 {
@@ -36,14 +36,14 @@ const Article = styled.article`
     font-size: 17px;
     font-weight: 700;
     line-height: 1.5;
-    margin: 25px 50px 15px;
+    margin: 25px 0 15px;
   }
 
   h4 {
     color: #3e465b;
     font-weight: 700;
     line-height: 1.5;
-    margin: 25px 50px 15px;
+    margin: 25px 0 15px;
   }
 
   h5,
@@ -51,12 +51,12 @@ const Article = styled.article`
     color: #3e465b;
     font-weight: 700;
     line-height: 1.5;
-    margin: 25px 50px 15px;
+    margin: 25px 0 15px;
   }
 
   p {
     line-height: 1.7;
-    margin: 15px 50px;
+    margin: 15px 0;
   }
 
   blockquote {
