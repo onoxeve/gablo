@@ -20,6 +20,10 @@ GatsbyのPluginとして[gatsby-plugin-google-adsensee](https://github.com/calli
 
 ```bash
 npm install --save react-adsense
+
+# or
+
+yarn add react-adsense
 ```
 
 ## 2. Gatsby Templateの修正
@@ -28,7 +32,7 @@ Adsenseサイト上で払い出された広告タグを配置する。
 記事ページにだけ配置したところ、Adsenseサイトで実施するコードチェックに失敗してしまった。
 どうやらトップページを見ているようなので、暫定的にトップページにもタグを追加している。  
 
-> Base Template
+### Base Template
 
 `src/html.js`
 
@@ -47,7 +51,7 @@ import AdSense from 'react-adsense';
 </head>
 ```
 
-> Post Template
+### Post Template
 
 `src/templates/PostTemplate.js`
 
@@ -69,7 +73,7 @@ import AdSense from 'react-adsense';
 
 3時間ほどで無事審査に通ったので、Gatsby側の修正を実施する。  
 
-> Base Template
+### Base Template
 
 トップページではscriptタグだけあれば問題ないので、react-adsenseのimportを削除する。
 
@@ -78,7 +82,7 @@ import AdSense from 'react-adsense';
 import AdSense from 'react-adsense';
 ```
 
-> Post Template
+### Post Template
 
 Adsense上で新規広告ユニットを作成し、広告タグを生成する。  
 今回は記事内広告を作ってみた。以下のよう修正してdone。

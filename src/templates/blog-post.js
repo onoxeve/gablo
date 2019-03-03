@@ -15,6 +15,8 @@ import Container from '../components/Container';
 import PageNav from '../components/PageNav';
 import Share from '../components/Share';
 
+import AdSense from 'react-adsense';
+
 class BlogPostTemplate extends React.Component {
   render() {
     const post = this.props.data.markdownRemark;
@@ -50,6 +52,10 @@ class BlogPostTemplate extends React.Component {
             {userConfig.showShareButtons && (
               <Share url={url} title={post.frontmatter.title} />
             )}
+            <AdSense.Google
+              client='ca-pub-4357144858136704'
+              slot=''
+            />
           </Card>
 
           <PageNav>

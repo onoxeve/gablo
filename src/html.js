@@ -2,6 +2,8 @@ import React from 'react';
 
 import favicon from './favicon.ico';
 
+import AdSense from 'react-adsense';
+
 export default class HTML extends React.Component {
   render() {
     return (
@@ -13,6 +15,12 @@ export default class HTML extends React.Component {
             name="viewport"
             content="width=device-width, initial-scale=1, shrink-to-fit=no"
           />
+          <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+          <AdSense.Google
+            client='ca-pub-4357144858136704'
+            slot=''
+          />
+
           {this.props.headComponents}
           <link rel="shortcut icon" href={favicon} />
         </head>
