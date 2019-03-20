@@ -3,7 +3,7 @@ title: Nginx proxy_set_header関連のモジュール、ヘッダ
 date: '2019-02-11'
 ---
 
-nginxの`proxy_set_header`関連のモジュール(`real_ip_header`)、ヘッダ(`X-Forwarded-For`、`X-Real-IP`)あたりの設定方法を記載する。
+nginxのproxy_set_header関連のモジュール(real_ip_header)、ヘッダ(X-Forwarded-For、X-Real-IP)あたりの設定方法を記載する。
 <!-- end -->
 
 ## 環境

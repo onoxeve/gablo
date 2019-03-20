@@ -3,10 +3,14 @@ title: Swiftのgitignoreテンプレート
 date: '2018-12-26'
 ---
 
-各言語・フレームワーク用の`gitignore`テンプレートより、[Swift版](https://github.com/github/gitignore/blob/master/Swift.gitignore)を導入する。細かい調整は追々やるとする。
+各言語・フレームワーク用のgitignoreテンプレートより、Swift版を導入する。
 <!-- end -->
 
-## カスタマイズ箇所
+## gitignoreテンプレート
+[Swift版はこちら](https://github.com/github/gitignore/blob/master/Swift.gitignore)
+
+## gitignoreカスタマイズ
+取り急ぎの2箇所だけ。
 
 1. Carthageの成果物をignore対象に
 
@@ -18,7 +22,7 @@ Carthage/Checkouts
 Carthage/Build
 ```
 
-2. `DS_Store`も追加しといた
+2. `DS_Store`を追加
 
 ```
 ## Other

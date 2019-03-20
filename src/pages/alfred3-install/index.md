@@ -3,8 +3,11 @@ title: Alfred3を導入
 date: '2019-01-14'
 ---
 
-GithubレポジトリをSpotlight感覚で検索したいがために、[Alfred](https://www.alfredapp.com/)を導入した。  
+GithubレポジトリをSpotlight感覚で検索したいがために、[Alfred]を導入した。  
 <!-- end -->
+
+## Alfred3ダウンロード
+
 [Alfred](https://www.alfredapp.com/)の`Download Alfred 3`からダウンロードする。
 
 ## Powerpack導入
@@ -13,7 +16,7 @@ GitHubレポジトリを検索するためには、アドオンのPowerpack購�
 [ここから購入できる](https://www.alfredapp.com/powerpack/buy/)  
 Powerpackを購入することで、様々な拡張機能(Workflowsと呼ばれている)を導入できる。(無料で利用できるWorkflowもある)
 
-## とりあえず導入したWorkflows
+## まず導入したWorkflows
 
 ### Github
 
@@ -35,5 +38,6 @@ rubyなど各種言語のリファレンスをAlfredから参照できるよう�
 ![dash_alfred_ruby](./dash_alfred_ruby.png)
 
 ## 複数PC間で同期する
+
 `Advanced` -> `Syncing`より設定  
 [同期速度の問題](https://www.alfredapp.com/help/advanced/sync/#services)で[Dropbox](https://www.dropbox.com/)を使うことが推奨されているので、Dropboxのアカウントを取得した。

@@ -3,7 +3,7 @@ title: CarthageでRealmを導入
 date: '2018-12-25'
 ---
 
-モバイル向けデータベース[Realm](https://realm.io/docs/swift/latest/)をライブラリ管理ツール[Carthage](https://github.com/Carthage/Carthage)を使って導入する手順
+モバイル向けデータベース[Realm]をライブラリ管理ツール[Carthage]を使って導入する手順
 <!-- end -->
 
 ## 環境
@@ -17,6 +17,8 @@ realm: 3.13.0
 
 ## Carthage導入
 
+[Carthage](https://github.com/Carthage/Carthage)に沿って導入する
+
 HomeBrewで導入する
 
 ```bash
@@ -25,7 +27,7 @@ brew install carthage
 
 ## Realm導入
 
-[Realm](https://realm.io/docs/swift/latest/)に沿って入れる
+[Realm](https://realm.io/docs/swift/latest/)に沿って導入する
 
 まず、ライブラリ管理用のファイルを作成(RubyでいうGemfile)
 

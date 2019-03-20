@@ -3,10 +3,12 @@ title: Gatsby on Netlify
 date: '2018-10-27'
 ---
 
-React製の静的サイトジェネレータ[Gatsby](https://www.gatsbyjs.org/)を[Netlify](https://www.netlify.com/)で立てるまでの手順。
+React製の静的サイトジェネレータ[Gatsby]を[Netlify]で立てるまでの手順。
 <!-- end -->
 
 ## Gatsby導入
+
+[Gatsby](https://www.gatsbyjs.org/)に沿って導入する。
 
 1. Gatsbyのcliツールを入れる。
 ```bash
