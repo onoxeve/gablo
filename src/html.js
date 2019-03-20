@@ -1,7 +1,5 @@
 import React from 'react';
 
-import favicon from './favicon.ico';
-
 import AdSense from 'react-adsense';
 
 export default class HTML extends React.Component {
@@ -22,7 +20,6 @@ export default class HTML extends React.Component {
           />
 
           {this.props.headComponents}
-          <link rel="shortcut icon" href={favicon} />
         </head>
         <body {...this.props.bodyAttributes}>
           {this.props.preBodyComponents}
